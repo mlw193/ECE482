@@ -1,3 +1,7 @@
+%%%% directions for use: pull all of the .wav file (99 of them) of desired genre into current folder and run code to get a spectrogram of Genre.XXXXX.wax('jazz.00067.wav')
+
+
+
 %%%assuming the file is in the current folder
 [y,Fs] = audioread('jazz.00067.wav');
 window=hamming(512); %%window with size of 512 points
